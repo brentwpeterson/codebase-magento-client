@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">   
+
+    <codebaseclient_adminhtml_tickets_index>
+        <reference name="content">
+            <block type="codebaseclient/adminhtml_tickets" name="tickets" as="tickets"/>
+        </reference>
+    </codebaseclient_adminhtml_tickets_index>
+
+   
+</layout>

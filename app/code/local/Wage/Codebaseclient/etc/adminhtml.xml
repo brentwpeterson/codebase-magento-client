@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <codebaseclient module="codebaseclient">
+            <title>Wagento Dashboard</title>
+            <sort_order>15</sort_order>
+<!--             <action>codebase/adminhtml_wagentodashboard</action> -->
+            <children>
+                <open_tickets translate="title" module="codebaseclient">
+                    <title>Open Tickets</title>
+                    <action>codebaseclient/adminhtml_tickets</action>
+                </open_tickets>               
+            </children>
+        </codebaseclient>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <codebaseclient translate="title" module="codebaseclient">
+                                        <title>Wagneto Codebase integration</title>
+                                    </codebaseclient>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
