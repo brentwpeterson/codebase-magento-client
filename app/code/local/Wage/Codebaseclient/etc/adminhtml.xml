@@ -2,7 +2,7 @@
 <config>
     <menu>
         <codebaseclient module="codebaseclient">
-            <title>Wagento Dashboard</title>
+            <title>Support Dashboard</title>
             <sort_order>15</sort_order>
 <!--             <action>codebase/adminhtml_wagentodashboard</action> -->
             <children>
