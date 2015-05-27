@@ -1,4 +1,4 @@
 app/code/local/Wage/Codebaseclient		app/code/local/Wage/Codebaseclient	
 app/etc/modules/Wage_Codebaseclient.xml		app/etc/modules/Wage_Codebaseclient.xml
-js/certCOMODORSACertificationAuthority		js/certCOMODORSACertificationAuthority
+js/*		js/
 app/design/adminhtml/default/default/layout/codebaseclient.xml	app/design/adminhtml/default/default/layout/codebaseclient.xml
