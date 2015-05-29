@@ -1,4 +1,8 @@
 <?php
+/**
+ *
+ * @author Wagento
+ */
 class Wage_Codebaseclient_Block_Adminhtml_Tickets extends Mage_Adminhtml_Block_Widget_Grid_Container {
 
 

@@ -1,4 +1,8 @@
 <?php
+/**
+ *
+ * @author Wagento
+ */
 class Wage_Codebaseclient_Adminhtml_TicketsController extends Mage_Adminhtml_Controller_Action {
     protected function _initAction()
 

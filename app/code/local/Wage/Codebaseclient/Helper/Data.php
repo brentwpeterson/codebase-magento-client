@@ -1,4 +1,8 @@
 <?php
+/**
+ *
+ * @author Wagento
+ */
 class Wage_Codebaseclient_Helper_Data extends Mage_Core_Helper_Abstract {
     public function convertToHoursMins($time, $format = '%d:%d') {
         settype($time, 'integer');

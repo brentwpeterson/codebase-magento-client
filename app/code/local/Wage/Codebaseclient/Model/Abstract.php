@@ -1,5 +1,8 @@
 <?php
-
+/**
+ *
+ * @author Wagento
+ */
 class Wage_Codebaseclient_Model_Abstract {
 
 	public function __construct(){

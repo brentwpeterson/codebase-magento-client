@@ -1,4 +1,8 @@
 <?php
+/**
+ *
+ * @author Wagento
+ */
 class Wage_Codebaseclient_Model_Tickets extends Mage_Core_Model_Abstract
 {
     public function _construct()

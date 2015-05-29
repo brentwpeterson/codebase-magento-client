@@ -1,4 +1,8 @@
 <?php
+/**
+ *
+ * @author Wagento
+ */
 class Wage_Codebaseclient_Block_Adminhtml_Tickets_Grid_Renderer_Link extends Mage_Adminhtml_Block_Widget_Grid_Column_Renderer_Abstract
 {
     public function render(Varien_Object $row)

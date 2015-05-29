@@ -1,4 +1,8 @@
 <?php
+/**
+ *
+ * @author Wagento
+ */
 $installer = $this;
 
 $installer->startSetup();
