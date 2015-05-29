@@ -1,8 +1,4 @@
 <?php
-/**
- *
- * @author Wagento
- */
 class Wage_Codebaseclient_Adminhtml_TicketsController extends Mage_Adminhtml_Controller_Action {
     protected function _initAction()
 
@@ -83,7 +79,7 @@ class Wage_Codebaseclient_Adminhtml_TicketsController extends Mage_Adminhtml_Con
             $params['description'] = $data['description'];
             $model = Mage::getModel('codebaseclient/codebaseclient')->addTicket($project,$params);
             try {
-                Mage::getSingleton('adminhtml/session')->addSuccess(Mage::helper('codebaseclient')->__('Ticket was created'));
+                Mage::getSingleton('adminhtml/session')->addSuccess(Mage::helper('codebaseclient')->__('Your ticket will show up on the dashboard after next job process.'));
             } catch (Exception $e) {
                 Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
             }

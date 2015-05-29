@@ -29,11 +29,11 @@ class Wage_Codebaseclient_Block_Adminhtml_Tickets_Grid extends Mage_Adminhtml_Bl
 
     protected function _prepareColumns() {
 
-        $this->addColumn('project_name', array(
+        /*$this->addColumn('project_name', array(
             'header' => Mage::helper('codebaseclient')->__('Project'),
             'index' => 'project_name',
 
-        ));
+        ));*/
         $this->addColumn('assignee', array(
             'header'    =>Mage::helper('codebaseclient')->__('Assignee'),
             'index'     =>'assignee',
