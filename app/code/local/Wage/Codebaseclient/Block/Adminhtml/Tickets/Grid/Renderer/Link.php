@@ -8,11 +8,8 @@ class Wage_Codebaseclient_Block_Adminhtml_Tickets_Grid_Renderer_Link extends Mag
     protected function _getValue(Varien_Object $row)
     {      
         $val = $row->getData($this->getColumn()->getIndex());
-	    $permalink = $row->getData($this->getColumn()->getPermalink());
-        $projectID = $row->getData($this->getColumn()->getProjectid());
-
-        $ignored_projects = explode(',', Mage::getStoreConfig('codebaseclient/exclude/exclude_projects'));
-        if (in_array($projectID, $ignored_projects)) return '';
+	$permalink = $row->getData($this->getColumn()->getPermalink());
+       
 
         $url = Mage::getStoreConfig('codebaseclient/general/host').'/projects/'.$permalink.'/tickets/'.$val;
         //$out = $url; 
